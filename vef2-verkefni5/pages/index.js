@@ -11,15 +11,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Viðburðir á næstunni
-        </h1>
+      <body>
+        <header className={styles.header}>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        </header>
+
+        <main className={styles.main}>
+          <h1 className={styles.title}>
+            Viðburðir á næstunni
+            </h1>
+            
+            <p className={styles.description}>
+              Get started by editing{' '}
+              <code className={styles.code}>pages/index.js</code></p>
       </main>
 
       <footer className={styles.footer}>
@@ -27,6 +31,8 @@ export default function Home() {
         <a href="/Innskráning"> Innskráning </a>
         <a href="/Nyskraning"> Nýskráning </a>
       </footer>
+      </body>
+      
     </div>
   )
 }
